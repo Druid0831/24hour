@@ -1,9 +1,10 @@
 import discord
+import os
 import asyncio
 
 client = discord.Client()
 
-token = "ODQ4NDQzNTI1MTUwNTM5ODM5.YLMsmw.SNjZrANrgxq96lBZFEXxyxxk-bU"
+token = "access_token"
 
 @client.event
 async def on_ready():
@@ -87,4 +88,5 @@ async def on_ready():
             embed.set_footer(text="'하나로 베고, 다른 하나로 봉인하리.'")
             await message.channel.send(embed=embed)
             
+access_token = os.environ["BOT_TOKEN"]            
 client.run(token)
