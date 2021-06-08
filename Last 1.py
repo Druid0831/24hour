@@ -88,5 +88,5 @@ async def on_ready():
             embed.set_footer(text="'하나로 베고, 다른 하나로 봉인하리.'")
             await message.channel.send(embed=embed)
             
-access_token = os.environ["BOT_TOKEN"]            
+access_token = os.environ['BOT_TOKEN']            
 client.run(token)
