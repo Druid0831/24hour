@@ -1,1 +1,1 @@
-git+http://github.com/Rapptz/discord.py
+git+http://github.com/Rapptz/Last 1.py
