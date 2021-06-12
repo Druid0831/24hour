@@ -4,8 +4,6 @@ import os
 
 client = discord.Client()
 
-token = "access_token"
-
 @client.event
 async def on_ready():
 
