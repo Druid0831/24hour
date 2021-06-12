@@ -1,1 +1,1 @@
-discord.py==0.16.12
+git+http://github.com/Rapptz/discord.py
